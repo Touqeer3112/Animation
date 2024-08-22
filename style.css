@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: poppins sans-serif ;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    background-image: url(https://www.shutterstock.com/image-photo/3d-surround-photo-blue-wireless-260nw-1547167280.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 650px;
+    padding: 10px 10%;
+    overflow: hidden;
+}
+nav{
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.logo{
+    width: 140px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+}
+.login-btn{
+     text-decoration: none;
+     color: #333;
+     margin-right: 15px;
+     font-weight: 400;
+}
+.btn{
+    display: inline-block;
+    text-decoration: none;
+     padding: 14px 40px;
+     color: #fff;
+     background-image: linear-gradient(45deg,#df4881, #c44047);
+     font-size: 14px;
+     border-radius: 30px;
+     border-top-right-radius: 0;
+}
+.Contant{
+    margin-top: 10%;
+}
+.Contant h1{
+       font-size: 70px;
+       color: #222;
+}
+.Contant p{
+    margin: 10px 0 30px;
+    color: #333;
+}
+.Contant .btn:hover{
+    padding: 15px 80px;
+    font-size: 15px;
+}
+.feature img{
+    width: 530px;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    
+}
+.img1{
+      float: right;
+      width: 50%;
+    
+}
+.center{
+    position: absolute;
+    width: 70%;
+    left: 25%;
+    bottom: 20%;
+}
